@@ -1,0 +1,183 @@
+body{
+    background-color: linear-gradient(40% #d5d5f0,60% #bb7676);
+    text-align: center;
+    user-select: none;
+}
+
+ul{
+    display: inline-block;
+    align-items: center;
+    vertical-align: middle;
+    justify-content: center;
+    text-align: center;
+    list-style: none;
+    text-decoration: none;
+}
+ul li{
+    display: inline-block;
+    margin: 0%;
+
+    margin-right: 10px;
+}
+ul li a{
+    text-decoration: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+ul li:hover{
+    text-decoration: underline;
+    text-decoration-color: rgb(240, 236, 236);
+    transform: scale(1.1);
+
+}
+menu .title{
+    display: inline-block;
+    margin: 10px;
+    text-align: left;
+    float: left;
+    margin-right: 20px;
+    font-size: larger;
+    font-weight: bold;
+    color: aliceblue;
+}
+menu{
+    user-select: none;
+    background-color:rgb(255 0 0 / 86%);
+    margin: 0%;
+    position: fixed;
+    left: 0%;
+    top: 0%;
+    width: 100%;
+    padding: 0%;
+}
+menu #search_items{
+    display: inline;
+    display: flex;
+    float: right;
+    margin: 12px;
+    z-index: 2;
+}
+menu #search_items:active{
+    transform: scale(0.9);
+}
+#search_items .search{
+    border-radius: 100%;
+    width: 15px;
+    height: 15px;
+    border: 2px solid #fff;
+}
+#search_items .stick{
+    width: 2px;
+    height: 8px;
+   background-color: #fff;
+   transform: rotate(-45deg);
+   margin-top: 14px;
+}
+.header{
+    margin: auto;
+    height: 100%;
+    display: inline;
+   
+}
+.header .image_cover{
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+   margin: 15px 3px 3px 3px;
+}
+.header .image{
+    display: inline-block;
+    border-radius: 2em;
+    width: 375px;
+}
+
+.header_write{
+    background-image: url("images/hostess-4.jpg");
+    background-position: center;
+    vertical-align: middle;
+    display: block;
+    background-color: rgb(249, 249, 248);
+    background-position: center;
+    padding: 40px 0px 0px 0px;
+    font-size: 40px;
+    background-size: 100%;
+    font-weight: bold;
+    color: rgb(20, 0, 0);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    height: 300px;
+    margin: auto;
+    border-bottom: 1px solid rgb(190, 190, 190);
+    margin-top: 10px;
+}
+*{
+    text-decoration: none;
+}
+.welcome,.welcome1{
+    vertical-align: top;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #ffffff;
+    box-shadow: 2px 4px 4px #000;
+    padding: 20px;
+    border-radius: 2em;
+    height: 220px;
+    display: inline-block;
+    width: 300px;
+    text-align: left;
+    word-wrap: break-word;
+    margin: 5px;
+
+}
+.welcome button{
+    border: none;
+    background-color:rgb(255 0 0 / 86%);
+    color: white;
+    padding: 8px;
+    border-radius: 6px;
+}
+.welcome button:active{
+    transform: scale(1.09);
+}
+.aviation{
+    font-size: 30px;
+    font-weight: 700;
+    text-decoration-thickness: 1px;
+    text-decoration-line: underline;
+    color: rgb(255 0 0 / 86%);
+
+}
+.welcome1{
+    vertical-align: middle;
+}
+.facts{
+    text-align: center;
+    justify-content: center;
+}
+.operations{
+    text-align: left;
+    background-color: #ffffff;
+    box-shadow: 2px 4px 4px #000;
+    word-wrap: break-word;
+    display: inline-block;
+    margin: 15px 10px 10px 10px;
+    padding: 10px;
+    color: grey;
+    width: ;
+    height: ;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border-top: 1px solid rgb(190, 190, 190);
+    border-radius: 2em;
+}
+.offers{
+    background-color: #ffffff;
+    box-shadow: 2px 4px 4px #000;
+    word-wrap: break-word;
+    display: inline-block;
+    margin: 15px 10px 10px 10px;
+    padding: 10px;
+    color: grey;
+    width: ;
+    height: ;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border-top: 1px solid rgb(190, 190, 190);
+    border-radius: 2em;
+}
